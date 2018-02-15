@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form method="GET" action="">
+        <fieldset class="form">
+            <legend>Personal Info</legend>
+            <div class="form-field">
+                <label>Name:</label>
+                <input id="FristName" name="name" type="text" placeholder="First Name" />
+                <input id="LastName" name="name" type="text" placeholder="Last Name" />
+            </div>
+            <div class="form-field">
+                <label>Email:</label> <input placeholder="example@info.com" required name="email" type="email" />
+            </div>
+            <div class="form-field">
+                <label>Date of Birth:</label> <input id="date" type="date" value="2018-02-08">
+            </div>
+            <div class="form-field">
+                <label>Gender:</label>
+                <div class="radio-group">
+                    <label for="radio-mail"><input id="radio-mail" type="radio" checked="checked" name="gender" value="male"> Male</label>
+                    <label for="radio-female"><input id="radio-female" type="radio" name="gender" value="felame"> Female</label>
+                    <label for="radio-others"><input id="radio-others" type="radio" name="gender" value="others"> Others</label>
+                </div>
+            </div>
+            <div class="form-field">
+                <label>Number:</label> <input required name="number" type="number" />
+            </div>
+        </fieldset>
+        <fieldset class="form">
+            <legend>Password</legend>
+            <div class="form-field">
+                <label>Password:</label> <input name="pw" type="password" placeholder="Enter Your Password" />
+            </div>
+            <div class="form-field">
+                <label>Confirm Password:</label> <input type="password" placeholder="Enter Your Password" />
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Address</legend>
+            <div class="form-field">
+                <label>Present Address:</label>
+                <address>
+                        <input name="PresentAddres" type="text"/>
+                </address>
+            </div>
+            <div class="form-field">
+                <label>Permanent Address:</label>
+                <address>
+                            <input name="PermanentAddres" type="text"/>
+                </address>
+            </div>
+            <div class="form-field">
+                <label>Country:</label>
+                <select name="country">
+                    <option value="af">Afghanistan</option>
+                    <option value="bd" selected>Bangladesh</option>
+                    <option value="bh">Bhutan</option>
+                    <option value="in">India</option>
+                    <option value="mal" >Maldives</option>
+                    <option value="ne">Nepal</option>
+                    <option value="pk">Pakistan</option>
+                    <option value="srl">Sri Lanka</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Others</legend>
+            <div class="form-field">
+                <label>Relationship Status:</label>
+                <div class="radio-group">
+                    <label for="radio-single"><input id="radio-single" type="radio" checked="checked" name="status" value="single"> Single</label>
+                    <label for="radio-married"><input id="radio-married" type="radio" name="gender" value="married">Married</label>
+                </div>
+            </div>
+            <div class="form-field">
+                <label>Education:</label>
+                <div class="checkbox-group">
+                    <label for="checkbox-ssc"><input id="checkbox-ssc" type="checkbox" checked="checked" name="gender" value="ssc"> SSC</label>
+                    <label for="checkbox-hsc"><input id="checkbox-hsc" type="checkbox" name="gender" value="hsc"> Hsc</label>
+                    <label for="checkbox-others"><input id="checkbox-others" type="checkbox" name="gender" value="others"> Others</label>
+                </div>
+            </div>
+            <div class="form-field">
+                <label>Picture</label>
+                <input name="image" type="file">
+            </div>
+            <div class="form-field">
+                <label>About You:</label>
+                <textarea name="details" rows="4" cols="25"></textarea>
+            </div>
+        </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+
+</body>
+
+</html>

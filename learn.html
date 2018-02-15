@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Html Form Tutorial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form method="GET" action="">
+        <fieldset>
+            <legend>This is form</legend>
+            asjd ]lajsdlak
+        </fieldset>
+        <div class="form-field">
+            <label for="name">Name:</label> <input id="name" name="name" type="text" placeholder="Enter your name" />
+        </div>
+        <div class="form-field">
+            <label>Email:</label> <input placeholder="exam[ple@gmail.com" required name="email" type="email" />
+        </div>
+        </div>
+        <div class="form-field">
+            <label>URL:</label> <input required name="url" type="url" />
+        </div>
+
+        <div class="form-field">
+            <label>Phone</label>
+            <input type="tel" pattern="555-555">
+        </div>
+
+        <div class="form-field">
+            <label>Price</label>
+            <input type="number">
+        </div>
+        </div>
+        <div class="form-field">
+            <label>Password:</label> <input name="pw" type="password" />
+        </div>
+        </div>
+        <div class="form-field">
+            <label>Gender:</label>
+            <div class="radio-group">
+                <label for="radio-mail"><input id="radio-mail" type="radio" checked="checked" name="gender" value="male"> Male</label>
+                <label for="radio-female"><input id="radio-female" type="radio" name="gender" value="felame"> Female</label>
+                <label for="radio-others"><input id="radio-others" type="radio" name="gender" value="others"> Others</label>
+            </div>
+        </div>
+        </div>
+        <div class="form-field">
+            <label>Education:</label>
+            <div class="checkbox-group">
+                <label for="checkbox-mail">
+                    <input id="checkbox-ssc" type="checkbox" checked="checked" name="gender" value="ssc"> SSC
+                </label>
+                <label for="checkbox-hsc"><input id="checkbox-hsc" type="checkbox" name="gender" value="hsc"> Hsc</label>
+                <label for="checkbox-others"><input id="checkbox-others" type="checkbox" name="gender" value="others"> Others</label>
+            </div>
+        </div>
+        </div>
+        <div class="form-field">
+            <label>Country:</label>
+            <select multiple name="country">
+                        <option value="bd">Bangladesh</option>
+                        <option value="in">India</option>
+                        <option value="in">India</option>
+                        <option value="in">India</option>
+                        <option value="in" selected>India</option>
+                        <option value="in">India</option>
+            </select>
+        </div>
+        <div class="form-field">
+            <label>Details:</label>
+            <textarea name="details" rows="12" cols="20"></textarea>
+        </div>
+
+        <div class="form-field">
+            <label>Picture</label>
+            <input name="cv" type="file">
+        </div>
+
+        <input type="submit" value="Submit" />
+    </form>
+
+
+    <!--
+        <progress min="0" max="100" value="50"></progress>
+    <input type="range" min="0" max="100" value="30" step="10" /> -->
+</body>
+
+</html>
