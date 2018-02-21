@@ -1,0 +1,48 @@
+body {
+    background: white;
+}
+
+a {
+    color: #fff;
+}
+
+header #top-header {
+    background-color: #568a35;
+}
+
+header #top-header h6 {
+    font-size: 10px;
+    line-height: 12px;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+header #main-header {
+    background-color: #7db249;
+    padding: 0px;
+}
+
+#shawol-one {
+    height: 300px;
+    background: url("../img/main-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#shawol-two {
+    height: 300px;
+    background: url("../img/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#shawol-two {
+    height: 200px;
+}
+
+#shawol-four {
+    height: 300px;
+    background: url("../img/bg-wigth-glasssss.jpg");
+    background-position: center;
+    background-size: cover;
+}
