@@ -6,6 +6,25 @@ a {
     color: #fff;
 }
 
+ul.navbar-nav li a {
+    font-size: 10px;
+    line-height: 10px;
+    padding: 20px !important;
+}
+
+ul.navbar-nav li a:hover {
+    color: #0da7a3;
+}
+
+ul.navbar-nav li.active a,
+ul.navbar-nav li a:hover {
+    text-decoration: underline;
+}
+
+ul.navbar-nav li:last-child a {
+    padding-right: 0 !important;
+}
+
 header #top-header {
     background-color: #568a35;
 }
@@ -45,4 +64,21 @@ header #main-header {
     background: url("../img/bg-wigth-glasssss.jpg");
     background-position: center;
     background-size: cover;
+}
+
+#shawol-five a {
+    color: #000;
+}
+
+.footer #main-footer h4 {
+    color: #90c43e;
+}
+
+.footer #down-footer {
+    background: #90c43e;
+}
+
+.footer #down-footer h6 {
+    font-size: 10px;
+    line-height: 14px;
 }
